@@ -1,4 +1,5 @@
 import Layout from './components/Layout/Layout';
+import { Contact, Intro, Projects, Resume, Skills } from './components/Sections'
 
 import './App.css';
 
@@ -6,11 +7,11 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <section>Intro</section>
-        <section>Projects</section>
-        <section>Skills</section>
-        <section>Resume</section>
-        <section>Contact</section>
+        <Intro />
+        <Projects />
+        <Skills />
+        <Resume />
+        <Contact />
       </Layout>
     </div>
   );
