@@ -8,7 +8,7 @@ export default function Layout(props) {
         >
             <Header />
             <div
-                className='space-y-6'
+                className='space-y-6 mx-8'
             >
                 {props.children}
             </div>
