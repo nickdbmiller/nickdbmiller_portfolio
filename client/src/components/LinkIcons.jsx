@@ -7,9 +7,27 @@ export default function LinkIcons() {
         <div
             className='space-x-4 text-4xl'
         >
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faGithubSquare} />
-            <FontAwesomeIcon icon={faSquareEnvelope} />
+            <a
+                href='https://www.linkedin.com/in/ndbmiller'
+                target='_blank'
+                rel='noreferrer'
+            >
+                <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a
+                href='https://github.com/nickdbmiller'
+                target='_blank'
+                rel='noreferrer'
+            >
+                <FontAwesomeIcon icon={faGithubSquare} />
+            </a>
+            <a
+                href="mailto:nickbarrettmiller@gmail.com?subject=Nice Portfolio&body=Hi Nick,"
+                target='_blank'
+                rel='noreferrer'
+            >
+                <FontAwesomeIcon icon={faSquareEnvelope} />
+            </a>
         </div>
     )
 }
