@@ -3,9 +3,13 @@ import Footer from './Footer'
 
 export default function Layout(props) {
     return (
-        <div>
+        <div
+            className='space-y-6'
+        >
             <Header />
-            <div>
+            <div
+                className='space-y-6'
+            >
                 {props.children}
             </div>
             <Footer />
