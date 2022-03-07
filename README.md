@@ -1,7 +1,7 @@
-# [**Nick DB Miller's Portfolio**]()
+# [**Nick DB Miller's Portfolio**](https://nickdbmiller.netlify.app/)
 
 ## Overview
-This project is a portfolio website for me, Nick DB Miller. The site showcases my work as a developer. Click a link below to check out my deployed projects!
+This project is a portfolio website for me, Nick db Miller. The site showcases my work as a developer. Click a link below to check out my deployed projects!
 
 - [**Web of Rogues**](https://nickdbmiller.github.io/Web-of-Rogues-Game/)
 - [**Efficient.ly**](https://builtefficiently.netlify.app/)
@@ -10,9 +10,9 @@ This project is a portfolio website for me, Nick DB Miller. The site showcases m
 
 ## Wireframe
 
-![Landing Page Wireframe for Mobile Portfolio Site](./.github/img/Landing_Page.png)
+### [Click here to interact with the mobile prototype!](https://www.figma.com/proto/NWPLo7KdAZocxH2CTsAqlz/Portfolio-Site?node-id=2%3A3&scaling=scale-down&page-id=0%3A1)
 
-> ## [Click here to interact with the mobile prototype!](https://www.figma.com/proto/NWPLo7KdAZocxH2CTsAqlz/Portfolio-Site?node-id=2%3A3&scaling=scale-down&page-id=0%3A1)
+![Landing Page Wireframe for Mobile Portfolio Site](./.github/img/Landing_Page.png)
 
 ![Color Pallet on Dark Background](./.github/img/Pallet_DARK.png)
 ![Color Pallet on Light Background](./.github/img/Pallet_LIGHT.png)
