@@ -22,7 +22,7 @@ export default function LinkIcons() {
                 <FontAwesomeIcon icon={faGithubSquare} />
             </a>
             <a
-                href="mailto:nickbarrettmiller@gmail.com?subject=Nice Portfolio&body=Hi Nick,"
+                href="mailto:nickbarrettmiller@gmail.com?subject=Nice Portfolio!&body=Hi Nick,"
                 target='_blank'
                 rel='noreferrer'
             >
