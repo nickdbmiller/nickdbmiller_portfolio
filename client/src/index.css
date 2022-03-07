@@ -1,6 +1,9 @@
 /* Raleway Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/* Press Start 2P Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
