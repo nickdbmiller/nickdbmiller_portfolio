@@ -11,6 +11,7 @@ export default function LinkIcons() {
                 href='https://www.linkedin.com/in/ndbmiller'
                 target='_blank'
                 rel='noreferrer'
+                className='hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-400 focus:ring-opacity-50 active:text-lime-500 hover:text-lime-300'
             >
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
@@ -18,6 +19,7 @@ export default function LinkIcons() {
                 href='https://github.com/nickdbmiller'
                 target='_blank'
                 rel='noreferrer'
+                className=' hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-400 focus:ring-opacity-50 active:text-lime-500 hover:text-lime-300'
             >
                 <FontAwesomeIcon icon={faGithubSquare} />
             </a>
@@ -25,6 +27,7 @@ export default function LinkIcons() {
                 href="mailto:nickbarrettmiller@gmail.com?subject=Nice Portfolio!&body=Hi Nick,"
                 target='_blank'
                 rel='noreferrer'
+                className=' hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-400 focus:ring-opacity-50 active:text-lime-500 hover:text-lime-300'
             >
                 <FontAwesomeIcon icon={faSquareEnvelope} />
             </a>
