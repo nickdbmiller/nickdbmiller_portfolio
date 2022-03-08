@@ -4,7 +4,7 @@
         "description": "An in browser rogue-like game. Features procedural level generation and a retro-aesthetic UI.",
         "tech": "JavaScript | HMTL | CSS | Node.js",
         "github": "https://github.com/nickdbmiller/Web-of-Rogues-Game",
-        "siteURL": "https://nickdbmiller.github.io/Web-of-Rogues-Game/",
+        "siteURL": "https://nickdbmiller.github.io/Web-of-Rogues-Game",
         "bg": "bg-lime-1000 rounded-2xl p-3",
         "text": "text-lime-400"
     },
@@ -13,7 +13,7 @@
         "description": "An engineering tool and educational site. Enables users to calculate architectural specifications for green building design.",
         "tech": "React | Node.js | Tailwind CSS",
         "github": "https://github.com/nickdbmiller/efficient.ly",
-        "siteURL": "https://builtefficiently.netlify.app/",
+        "siteURL": "https://builtefficiently.netlify.app",
         "bg": "bg-lime-700 rounded-2xl p-3",
         "text": "text-lime-400"
     },
@@ -22,7 +22,7 @@
         "description": "A web based board game simulator. Users can, sign up, log in, and save games.",
         "tech": "MongoDB | Express | React | Node.js | Tailwind CSS",
         "github": "https://github.com/yexeniaf/BoredGame-Frontend",
-        "siteURL": "https://competent-noyce-c7b535.netlify.app/",
+        "siteURL": "https://competent-noyce-c7b535.netlify.app",
         "bg": "bg-lime-800 rounded-2xl p-3",
         "text": "text-indigo-600"
     },
@@ -31,7 +31,7 @@
         "description": "CRUD application with e-commerce UI. Features user accounts, product reviews, and favorites.",
         "tech": "Ruby on Rails | React | Node.js | Tailwind CSS",
         "github": "https://github.com/nickdbmiller/needful",
-        "siteURL": "https://needfulshop.netlify.app/",
+        "siteURL": "https://needfulshop.netlify.app",
         "bg": "bg-lime-1000 rounded-2xl p-3",
         "text": "text-lime-400"
     }

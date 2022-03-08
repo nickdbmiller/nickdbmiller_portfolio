@@ -17,7 +17,7 @@ export default function Skills() {
             >
                 {/* React */}
                 <div
-                    className = "bg-lime-1000 text-cyan-400 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-lime-1000 text-cyan-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <div
                         className='text-8xl'
@@ -33,7 +33,7 @@ export default function Skills() {
 
                 {/* JS */}
                 <div
-                    className = "bg-lime-1000 text-yellow-300 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-lime-1000 text-yellow-300 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <div
                         className='text-8xl'
@@ -49,7 +49,7 @@ export default function Skills() {
 
                 {/* HTML */}
                 <div
-                    className = "bg-lime-1000 text-red-600 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-lime-1000 text-red-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <div
                         className='text-8xl'
@@ -65,7 +65,7 @@ export default function Skills() {
 
                 {/* CSS */}
                 <div
-                    className = "bg-lime-1000 text-blue-600 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-lime-1000 text-blue-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <div
                         className='text-8xl'
@@ -81,7 +81,7 @@ export default function Skills() {
 
                 {/* Node.js */}
                 <div
-                    className = "bg-lime-1000 text-lime-600 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-lime-1000 text-lime-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <div
                         className='text-8xl'
@@ -97,7 +97,7 @@ export default function Skills() {
 
                 {/* Express */}
                 <div
-                    className = "bg-lime-1000 text-slate-100 rounded-2xl p-3 w-40 h-40 flex flex-col items-center"
+                    className = "bg-lime-1000 text-slate-100 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <svg
                         height="64"
@@ -114,7 +114,7 @@ export default function Skills() {
 
                 {/* MongoDB */}
                 <div
-                    className = "bg-lime-1000 text-green-500 rounded-2xl p-3 w-40 h-40 flex flex-col items-center"
+                    className = "bg-lime-1000 text-green-500 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <svg
                         height="84"
@@ -131,7 +131,7 @@ export default function Skills() {
 
                 {/* Ruby on Rails */}
                 <div
-                    className = "bg-lime-1000 text-red-500 rounded-2xl p-3 w-40 h-40 flex flex-col items-center"
+                    className = "bg-lime-1000 text-red-500 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <svg
                         height="64"
@@ -148,7 +148,7 @@ export default function Skills() {
 
                 {/* Ruby */}
                 <div
-                    className = "bg-lime-1000 text-red-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center"
+                    className = "bg-lime-1000 text-red-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <svg
                         height="64"
@@ -165,7 +165,7 @@ export default function Skills() {
 
                 {/* Tailwind CSS */}
                 <div
-                    className = "bg-lime-1000 text-cyan-500 rounded-2xl p-3 w-40 h-40 flex flex-col items-center"
+                    className = "bg-lime-1000 text-cyan-500 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                     <svg
                         height="82"
@@ -182,7 +182,7 @@ export default function Skills() {
 
                 {/* PostgreSQL */}
                 <div
-                    className = "bg-lime-1000 text-sky-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center"
+                    className = "bg-lime-1000 text-sky-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
                 <svg
                     height="82"
