@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDice, faBoltLightning } from '@fortawesome/free-solid-svg-icons'
+
 import ConversationBubble from "../ConversationBubble";
 
 export default function Projects() {
@@ -10,13 +13,20 @@ export default function Projects() {
                 className = "bg-lime-100 text-lime-1000 rounded-2xl p-3"
             />
             <div
-                className="text-center grid grid-cols-1 space-y-2 m-2"
+                className="text-center grid grid-cols-1 space-y-2 m-2 font-bold"
             >
                 {/* Web of Rogues */}
                 <div
-                    className = "bg-lime-1000 text-lime-400 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-lime-1000 text-lime-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
-                    <h3>
+                    <h2
+                        className="font-2P text-4xl"
+                    >
+                        @
+                    </h2>
+                    <h3
+                        className='text-lg'
+                    >
                         Web of Rogues
                     </h3>
                     <a
@@ -37,9 +47,12 @@ export default function Projects() {
 
                 {/* efficient.ly */}
                 <div
-                    className = "bg-lime-700 text-lime-400 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-lime-700 text-lime-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
-                    <h3>
+                    <FontAwesomeIcon className="text-4xl" icon={faBoltLightning} />
+                    <h3
+                        className='text-2xl'
+                    >
                         efficient.ly
                     </h3>
                     <a
@@ -60,9 +73,12 @@ export default function Projects() {
 
                 {/* Bored? Game! */}
                 <div
-                    className = "bg-slate-900 text-indigo-600 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-slate-900 text-indigo-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
-                    <h3>
+                    <FontAwesomeIcon className="text-4xl" icon={faDice} />
+                    <h3
+                        className='text-2xl'
+                    >
                         Bored? Game!
                     </h3>
                     <a
@@ -83,9 +99,16 @@ export default function Projects() {
 
                 {/* Needful */}
                 <div
-                    className = "bg-rose-500 text-rose-100 rounded-2xl p-3 w-40 h-40"
+                    className = "bg-rose-500 text-rose-100 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
                 >
-                    <h3>
+                    <h2
+                        className="font-noto-display text-4xl"
+                    >
+                        N
+                    </h2>
+                    <h3
+                        className='text-2xl'
+                    >
                         Needful
                     </h3>
                     <a
