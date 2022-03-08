@@ -9,7 +9,7 @@ export default function Header() {
             <h1
                 className="text-3xl font-bold"
             >
-                Nick db Miller
+                Nick DB Miller
             </h1>
             <LinkIcons />
         </header>
