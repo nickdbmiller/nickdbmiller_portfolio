@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         'raleway': ['Raleway', 'sans-serif'],
         '2P': ['"Press Start 2P"', 'cursive'],
+        'noto-display': ['"Noto Serif Display"', 'serif'],
       },
     },
   },
