@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons'
 
-import pdf from "../../assets/pdf/NICK_MILLER_ResumeBAY_2022.pdf"
+import pdf from "../../assets/pdf/NICK_MILLER_Resume_2022.pdf"
 
 export default function Resume() {
     return (
