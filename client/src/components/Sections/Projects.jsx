@@ -16,8 +16,11 @@ export default function Projects() {
                 className="text-center grid grid-cols-1 sm:grid-cols-2 gap-4 m-2 font-bold mt-4"
             >
                 {/* Web of Rogues */}
-                <div
-                    className = "bg-lime-1000 text-lime-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
+                <a
+                    href='https://nickdbmiller.github.io/Web-of-Rogues-Game/'
+                    target='_blank'
+                    rel="noreferrer"
+                    className = "bg-lime-1000 text-lime-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-1000 focus:ring-opacity-50"
                 >
                     <h2
                         className="font-2P text-4xl"
@@ -45,11 +48,14 @@ export default function Projects() {
                     >
                         Live Site
                     </a>
-                </div>
+                </a>
 
                 {/* efficient.ly */}
-                <div
-                    className = "bg-lime-700 text-lime-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
+                <a
+                    href='https://builtefficiently.netlify.app/'
+                    target='_blank'
+                    rel="noreferrer"
+                    className = "bg-lime-700 text-lime-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-1000 focus:ring-opacity-50"
                 >
                     <FontAwesomeIcon className="text-4xl" icon={faBoltLightning} />
                     <h3
@@ -73,11 +79,14 @@ export default function Projects() {
                     >
                         Live Site
                     </a>
-                </div>
+                </a>
 
                 {/* Bored? Game! */}
-                <div
-                    className = "bg-slate-900 text-indigo-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
+                <a
+                    href='https://competent-noyce-c7b535.netlify.app/'
+                    target='_blank'
+                    rel="noreferrer"
+                    className = "bg-slate-900 text-indigo-600 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-400 focus:ring-opacity-50"
                 >
                     <FontAwesomeIcon className="text-4xl" icon={faDice} />
                     <h3
@@ -101,11 +110,14 @@ export default function Projects() {
                     >
                         Live Site
                     </a>
-                </div>
+                </a>
 
                 {/* Needful */}
-                <div
-                    className = "bg-rose-500 text-rose-100 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center"
+                <a
+                    href='https://needfulshop.netlify.app/'
+                    target='_blank'
+                    rel="noreferrer"
+                    className = "bg-rose-500 text-rose-100 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-rose-100 focus:ring-opacity-50"
                 >
                     <h2
                         className="font-noto-display text-4xl"
@@ -133,7 +145,7 @@ export default function Projects() {
                     >
                         Live Site
                     </a>
-                </div>
+                </a>
             </div>
         </section>
     )
