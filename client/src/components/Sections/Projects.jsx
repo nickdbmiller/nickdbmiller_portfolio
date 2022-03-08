@@ -13,7 +13,7 @@ export default function Projects() {
                 className = "bg-lime-100 text-lime-1000 rounded-2xl p-3"
             />
             <div
-                className="text-center grid grid-cols-1 space-y-2 m-2 font-bold"
+                className="text-center grid grid-cols-1 sm:grid-cols-2 gap-4 m-2 font-bold mt-4"
             >
                 {/* Web of Rogues */}
                 <div
@@ -33,6 +33,7 @@ export default function Projects() {
                         href='https://github.com/nickdbmiller/Web-of-Rogues-Game'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-400 focus:ring-opacity-50 active:text-lime-500 hover:text-neutral-50'
                         >
                         Github
                     </a>
@@ -40,6 +41,7 @@ export default function Projects() {
                         href='https://nickdbmiller.github.io/Web-of-Rogues-Game/'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-400 focus:ring-opacity-50 active:text-lime-500 hover:text-neutral-50'
                     >
                         Live Site
                     </a>
@@ -59,6 +61,7 @@ export default function Projects() {
                         href='https://github.com/nickdbmiller/efficient.ly'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-1000 focus:ring-opacity-50 active:text-lime-500 hover:text-lime-1000'
                     >
                         Github
                     </a>
@@ -66,6 +69,7 @@ export default function Projects() {
                         href='https://builtefficiently.netlify.app/'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-1000 focus:ring-opacity-50 active:text-lime-500 hover:text-lime-1000'
                     >
                         Live Site
                     </a>
@@ -85,6 +89,7 @@ export default function Projects() {
                         href='https://github.com/yexeniaf/BoredGame-Frontend'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-400 focus:ring-opacity-50 active:text-indigo-500 hover:text-indigo-300'
                     >
                         Github
                     </a>
@@ -92,6 +97,7 @@ export default function Projects() {
                         href='https://competent-noyce-c7b535.netlify.app/'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-400 focus:ring-opacity-50 active:text-indigo-500 hover:text-indigo-300'
                     >
                         Live Site
                     </a>
@@ -115,6 +121,7 @@ export default function Projects() {
                         href='https://github.com/nickdbmiller/needful'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-rose-100 focus:ring-opacity-50 active:text-rose-800 hover:text-rose-900'
                     >
                         Github
                     </a>
@@ -122,6 +129,7 @@ export default function Projects() {
                         href='https://needfulshop.netlify.app/'
                         target='_blank'
                         rel="noreferrer"
+                        className='hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-rose-100 focus:ring-opacity-50 active:text-rose-800 hover:text-rose-900'
                     >
                         Live Site
                     </a>

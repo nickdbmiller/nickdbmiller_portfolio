@@ -1,4 +1,4 @@
-# [**Nick DB Miller's Portfolio**](https://nickdbmiller.netlify.app/)
+# [**Nick DB Miller's Portfolio**](https://www.nickdbmiller.com)
 
 ## Overview
 This project is a portfolio website for me, Nick db Miller. The site showcases my work as a developer. Click a link below to check out my deployed projects!

@@ -13,7 +13,7 @@ export default function Skills() {
                 className = "bg-lime-900 text-lime-400 rounded-2xl p-3"
             />
             <div
-                className="text-center grid grid-cols-1 space-y-2 m-2"
+                className="text-center grid grid-cols-1 sm:grid-cols-2 gap-4 m-2"
             >
                 {/* React */}
                 <div
