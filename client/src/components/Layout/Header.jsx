@@ -1,6 +1,6 @@
 import LinkIcons from "../LinkIcons";
 
-export default function Header() {
+export default function Header(props) {
     return (
         <header
             className="bg-lime-700 text-lime-1000 flex flex-row justify-between sm:justify-evenly items-center p-3 2xl:justify-center 2xl:space-x-40
@@ -9,9 +9,12 @@ export default function Header() {
             <h1
                 className="text-3xl font-bold"
             >
-                Nick db Miller
+                Nick DB Miller
             </h1>
-            <LinkIcons />
+            <LinkIcons
+                modalToggle = {props.modalToggle}
+                setModalToggle = {props.setModalToggle}
+            />
         </header>
     )
 }
