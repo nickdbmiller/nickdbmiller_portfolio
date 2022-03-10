@@ -13,13 +13,14 @@ export default function ContactModal(props) {
         subject: '',
     }
 
+    const [headerText, setHeaderText] = useState("Get in touch!")
     const [buttonText, setButtonText] = useState("Send")
     const [toSend, setToSend] = useState(defaultInput)
 
     const handleClose = () => {
         props.setModalToggle(false)
     }
-        
+
     const onSubmit = (e) => {
         e.preventDefault()
         send(
@@ -31,6 +32,7 @@ export default function ContactModal(props) {
         .then((res) => {
             console.log('SUCCESS!', res.status, res.text);
             setButtonText("Sent!")
+            setHeaderText("Thanks for your message!")
             setTimeout(() => {
                 setToSend(defaultInput)
                 handleClose()
@@ -41,6 +43,7 @@ export default function ContactModal(props) {
             alert('ERROR SENDING EMAIL:', err)
         });
 
+        setHeaderText("Get in touch!")
         setButtonText("Send")
     }
 
@@ -73,7 +76,7 @@ export default function ContactModal(props) {
                     <h4
                         className="text-lime-500 text-2xl text-center"
                     >
-                        "Get in touch!"
+                        {headerText}
                     </h4>
                 </div>
 
