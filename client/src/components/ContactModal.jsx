@@ -31,8 +31,10 @@ export default function ContactModal(props) {
         .then((res) => {
             console.log('SUCCESS!', res.status, res.text);
             setButtonText("Sent!")
-            setToSend(defaultInput)
-            handleClose()
+            setTimeout(() => {
+                setToSend(defaultInput)
+                handleClose()
+            }, 2000)
         })
         .catch((err) => {
             console.error('ERROR SENDING EMAIL:', err);
