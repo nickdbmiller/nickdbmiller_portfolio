@@ -13,6 +13,7 @@ export default function ContactModal(props) {
         subject: '',
     }
 
+    const [buttonText, setButtonText] = useState("Send")
     const [toSend, setToSend] = useState(defaultInput)
 
     const handleClose = () => {
@@ -29,6 +30,7 @@ export default function ContactModal(props) {
             )
         .then((res) => {
             console.log('SUCCESS!', res.status, res.text);
+            setButtonText("Sent!")
             setToSend(defaultInput)
             handleClose()
         })
@@ -36,6 +38,8 @@ export default function ContactModal(props) {
             console.error('ERROR SENDING EMAIL:', err);
             alert('ERROR SENDING EMAIL:', err)
         });
+
+        setButtonText("Send")
     }
 
     const handleChange = (e) => {
@@ -77,7 +81,7 @@ export default function ContactModal(props) {
                 >
                     {/* Email Form */}
                     <form
-                        onSubmit={onSubmit}
+                        onSubmit={(e) => onSubmit(e)}
                         className="sm:space-y-4"
                     >
                         {/* Sender Name */}
@@ -91,13 +95,14 @@ export default function ContactModal(props) {
                                 "What's your name?"
                             </label>
                             <input
+                                required
                                 className="text-lime-1000 p-1 sm:p-4 bg-lime-100 rounded-lg border-b-2 border-lime-1000"
                                 id='from_name'
                                 type='text'
                                 name='from_name'
                                 placeholder='From'
                                 value={toSend.from_name}
-                                onChange={handleChange}
+                                onChange={(e) => handleChange(e)}
                             />
                         </div>
 
@@ -112,13 +117,14 @@ export default function ContactModal(props) {
                                 "What's your email?"
                             </label>
                             <input
+                                required
                                 className="text-lime-1000 p-1 sm:p-4 bg-lime-100 rounded-lg border-b-2 border-lime-1000"
                                 id='reply_to'
                                 type='email'
                                 name='reply_to'
                                 placeholder='Email'
                                 value={toSend.reply_to}
-                                onChange={handleChange}
+                                onChange={(e) => handleChange(e)}
                             />
                         </div>
 
@@ -133,13 +139,14 @@ export default function ContactModal(props) {
                                 Subject
                             </label>
                             <input
+                                required
                                 className="text-lime-1000 p-1 sm:p-4 bg-lime-100 rounded-lg border-b-2 border-lime-1000"
                                 id='subject'
                                 type='text'
                                 name='subject'
                                 placeholder='Subject'
                                 value={toSend.subject}
-                                onChange={handleChange}
+                                onChange={(e) => handleChange(e)}
                             />
                         </div>
 
@@ -154,44 +161,44 @@ export default function ContactModal(props) {
                                 Your message
                             </label>
                             <textarea
+                                required
                                 className="text-lime-1000 pt-1 px-1 sm:px-4 sm:pt-4 sm:pb-24 bg-lime-100 rounded-lg border-b-2 border-lime-1000 resize-none"
                                 id='message'
                                 type='text'
                                 name='message'
                                 placeholder='Message...'
                                 value={toSend.message}
-                                onChange={handleChange}
+                                onChange={(e) => handleChange(e)}
                             />
                         </div>
-                    </form>
-                </div>
-
-                {/* Modal Footer */}
-                <div
-                    className="pt-3 pb-6 flex items-center justify-center space-x-4"
-                >
-                        {/* Submit */}
-                        <button
-                            className="px-5 py-3 rounded-2xl inline-block bg-lime-400 border-b-2 border-lime-1000
-                            text-lime-900 uppercase tracking-wider font-semibold text-sm
-                            hover:bg-lime-300 hover:-translate-y-0.5 transform transition
-                            focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-400 focus:ring-opacity-50
-                            active:bg-lime-500"
-                            type='submit'
-                            onClick={onSubmit}
+                        {/* Modal Footer */}
+                        <div
+                            className="pt-3 pb-6 flex items-center justify-center space-x-4"
                         >
-                            Send!
-                        </button>
-                    <button
-                        onClick={() => handleClose()}
-                        className="px-5 py-3 rounded-2xl inline-block bg-gray-300
-                        text-lime-1000 uppercase tracking-wider font-semibold text-sm
-                        hover:bg-gray-200
-                        focus:outline-none focus:ring focus:ring-offset-2 focus:ring-gray-300 focus:ring-opacity-50
-                        active:bg-gray-400"
-                    >
-                        Close
-                    </button>
+                            {/* Submit */}
+                            <button
+                                className="px-5 py-3 rounded-2xl inline-block bg-lime-400 border-b-2 border-lime-1000
+                                text-lime-900 uppercase tracking-wider font-semibold text-sm
+                                hover:bg-lime-300 hover:-translate-y-0.5 transform transition
+                                focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-400 focus:ring-opacity-50
+                                active:bg-lime-500"
+                                type='submit'
+                            >
+                                {buttonText}
+                            </button>
+                            <button
+                                onClick={() => handleClose()}
+                                className="px-5 py-3 rounded-2xl inline-block bg-gray-300
+                                text-lime-1000 uppercase tracking-wider font-semibold text-sm
+                                hover:bg-gray-200
+                                focus:outline-none focus:ring focus:ring-offset-2 focus:ring-gray-300 focus:ring-opacity-50
+                                active:bg-gray-400"
+                                type='button'
+                            >
+                                Close
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
