@@ -14,14 +14,14 @@ export default function Intro() {
                     className="rounded-2xl w-40"
                 />
                 <ConversationBubble
-                    text = {'"Hi, I\'m Nick! Making things simple is what I do."'}
+                    text = "Hi, I'm Nick! Making things simple is what I do."
                     className = "bg-lime-900 text-lime-100 text-2xl rounded-2xl p-3 sm:text-4xl flex items-center"
                 />
             </div>
             <h2
-                className="text-xl mt-6 text-lime-1000"
+                className="text-4xl mt-6 text-lime-1000 text-center"
             >
-                Full Stack Software Engineer
+                | Software Engineer |
             </h2>
         </section>
     )
