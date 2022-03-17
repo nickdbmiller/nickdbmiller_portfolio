@@ -9,11 +9,11 @@ export default function Skills() {
             className="flex flex-col bg-lime-700 rounded-2xl p-4 items-center"
         >
             <ConversationBubble
-                text = {'"What do I know how to do? More and more every day!"'}
-                className = "bg-lime-900 text-lime-400 rounded-2xl p-3"
+                text = "Skills"
+                className = "bg-lime-900 text-lime-400 rounded-2xl p-3 w-full text-center text-2xl"
             />
             <div
-                className="text-center grid grid-cols-1 sm:grid-cols-2 gap-4 m-2"
+                className="text-center grid grid-cols-1 sm:grid-cols-2 gap-4 m-2 font-bold mt-4"
             >
                 {/* React */}
                 <div

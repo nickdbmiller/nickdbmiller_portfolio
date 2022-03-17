@@ -14,7 +14,7 @@ export default function Resume() {
             <section
                 className="bg-lime-900 text-lime-100 rounded-2xl p-3 text-center text-2xl sm:text-4xl active:text-lime-500 hover:text-lime-300 hover:bg-lime-1000"
             >
-                <p>{'"Dowload my resume!"'}</p>
+                <p>Download my Resume!</p>
                 <FontAwesomeIcon icon={faArrowRightToBracket} className="rotate-90"/>
             </section>
         </a>

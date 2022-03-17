@@ -97,7 +97,7 @@ export default function ContactModal(props) {
                                 className='block'
                                 htmlFor="from_name"
                             >
-                                "What's your name?"
+                                What's your name?
                             </label>
                             <input
                                 required
@@ -119,7 +119,7 @@ export default function ContactModal(props) {
                                 className='block'
                                 htmlFor="reply_to"
                             >
-                                "What's your email?"
+                                What's your email?
                             </label>
                             <input
                                 required
