@@ -9,8 +9,8 @@ export default function Projects() {
             className="flex flex-col bg-lime-400 rounded-2xl p-4 items-center"
         >
             <ConversationBubble
-                text = {'"Check out some of the neat stuff I\'ve been working on!"'}
-                className = "bg-lime-100 text-lime-1000 rounded-2xl p-3"
+                text = "Current Projects"
+                className = "bg-lime-100 text-lime-1000 rounded-2xl p-3 w-full text-center text-2xl"
             />
             <div
                 className="text-center grid grid-cols-1 sm:grid-cols-2 gap-4 m-2 font-bold mt-4"
