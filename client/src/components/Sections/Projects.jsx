@@ -17,7 +17,7 @@ export default function Projects() {
             >
                 {/* Web of Rogues */}
                 <a
-                    href='https://nickdbmiller.github.io/Web-of-Rogues-Game/'
+                    href='https://web-of-rogues.netlify.app/'
                     target='_blank'
                     rel="noreferrer"
                     className = "bg-lime-1000 text-lime-400 rounded-2xl p-3 w-40 h-40 flex flex-col items-center justify-center hover:-translate-y-2 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-lime-1000 focus:ring-opacity-50"
