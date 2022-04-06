@@ -3,7 +3,7 @@
 ## Overview
 This project is a portfolio website for me, Nick db Miller. The site showcases my work as a developer. Click a link below to check out my deployed projects!
 
-- [**Web of Rogues**](https://nickdbmiller.github.io/Web-of-Rogues-Game/)
+- [**Web of Rogues**](https://web-of-rogues.netlify.app/)
 - [**Efficient.ly**](https://builtefficiently.netlify.app/)
 - [**Bored? Game!**](https://competent-noyce-c7b535.netlify.app/)
 - [**Needful**](https://needfulshop.netlify.app/)
