@@ -16,7 +16,6 @@ function App() {
       >
         <Intro />
         <Skills />
-        <Resume />
         <Contact
           modalToggle = {modalToggle}
           setModalToggle = {setModalToggle}
